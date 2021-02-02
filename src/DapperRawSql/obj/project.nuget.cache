@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "r3HrFWzCafewJbwzl8FZIt9Tm0tSR/N2M7Aa+HL20g4xjjgC9DCAPgXJWeOaS8VnyThED/kSMc7oad8QhjiEeg==",
+  "success": true,
+  "projectFilePath": "/home/piton/RiderProjects/DapperRawSql/src/DapperRawSql/DapperRawSql.csproj",
+  "expectedPackageFiles": [
+    "/home/piton/.nuget/packages/dapper/2.0.78/dapper.2.0.78.nupkg.sha512",
+    "/home/piton/.nuget/packages/system.reflection.emit.lightweight/4.7.0/system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
