@@ -1,0 +1,32 @@
+
+GO
+CREATE DATABASE DapperRawSql
+GO
+USE DapperRawSql
+GO
+CREATE TABLE Products
+(
+    Id INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+    Name NVARCHAR(MAX),
+    Price FLOAT
+)
+    GO
+CREATE TABLE Persons
+(
+    Id INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+    Name NVARCHAR(MAX),
+    SurName NVARCHAR(MAX),
+    Age INT
+)
+    GO
+CREATE TABLE SqlQueries
+(
+    Id INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+    Query NVARCHAR(MAX)
+)
+    GO
+INSERT INTO Products VALUES('Dell 5593',4875.50),('Samsung S7',6250.99)
+GO
+INSERT INTO Persons VALUES('Ali Furkan','Kızıl',24),('Osman','Eser',23)
+GO
+INSERT INTO SqlQueries VALUES('SELECT * FROM  Persons'),('SELECT * FROM  Products')
